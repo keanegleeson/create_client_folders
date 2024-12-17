@@ -42,8 +42,8 @@ def create_missing_folders(missing_ids, directory):
 
 def main():
     # File path for client ID list and target directory
-    client_file = '//ses.int/global/Advanced Visualization/Production/Common/Keane/client_ids.txt'  # Replace with your file path
-    target_directory = '//ses.int\global\Advanced Visualization\Staging'  # Replace with your directory path
+    client_file = 'client_ids.txt'  # Replace with your file path
+    target_directory = 'Staging'  # Replace with your directory path
 
     # Load client IDs
     client_ids = load_client_ids(client_file)
